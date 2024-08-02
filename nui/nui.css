@@ -1,0 +1,129 @@
+ body {
+    user-select: none;
+    overflow: hidden;
+    font-family: 'Gilgan', sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.background {
+    display: none;
+    position: absolute;
+    background: #000000; /*433E60*/
+    border-radius: 15px;
+    border: 0.5166666666666667vw solid rgb(22, 22, 22);
+    width: 50%;
+    height: 60%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.aba1 {
+    display: block;
+    position: relative;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.carro {
+    position: relative;
+    width: 80%;
+    height: 25%;
+    left: 10%;
+    margin-top: 5%;
+    border-radius: 5%;
+    background-color: #7a08ff;
+}
+
+.carro:hover {
+    transform: scale(1.1);
+}
+
+.aba2 {
+    display: block;
+    position: relative;
+    flex-wrap: wrap;
+
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.carrito {
+    display: flex;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: #7a08ff;
+    left: 25%;
+    top: 2.5%;
+    border-radius: 5%;
+}
+
+.nome {
+    display: flex;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.7vw;
+    font-weight: 900;
+}
+
+.infos {
+    display: flex;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    width: 75%;
+    height: 30%;
+    transform: translate(-50%, -50%);
+    flex-wrap: wrap;
+}
+
+.infos .infos2 {
+    display: flex;
+    position: relative;
+    width: 45%;
+    height: 20%;
+    margin-left: 5%;
+    color: white;
+    font-size: 1vw;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    background-color: #9611ff;
+    border-radius: 1vw;
+}
+
+.produzir {
+    display: flex;
+    position: absolute;
+    top: 94.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 7%;
+    background-color: #9611ff;
+    border-radius: 1vw;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
